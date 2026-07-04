@@ -1,6 +1,6 @@
 # Monolayer MoS<sub>2</sub> example
 
-In this example we build tigh-binding model for MoS<sub>2</sub> for VBM, CBM, and CBM+1 bands using 3 Wannier functions.
+In this example we build tight-binding model for MoS<sub>2</sub> for VBM, CBM, and CBM+1 bands using 3 Wannier functions.
 
 Generate k-mesh with *kmesh.pl* utility from /Wannier90/utility/ folder
 
