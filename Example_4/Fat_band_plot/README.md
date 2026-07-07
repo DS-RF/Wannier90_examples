@@ -19,4 +19,4 @@ Plot the results
 
 > gnuplot plot_fat_bands_z2_xy_x2_y2.gnu
 
- 
+![GitHub Logo](fat_bands_dxy_x2y2_z2_purple.png) 
