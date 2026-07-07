@@ -1,0 +1,5 @@
+&PROJWFC
+    prefix  = 'd'
+    outdir  = './'
+    filproj = 'd.proj'
+/

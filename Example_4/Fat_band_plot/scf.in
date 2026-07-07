@@ -1,0 +1,43 @@
+
+&control
+    calculation = 'scf'
+    pseudo_dir = './'
+    prefix = 'd'
+    outdir = './'
+    nstep = 100
+    verbosity = 'high'
+/
+
+&system
+    ibrav = 4
+    a = 3.1804152595
+    c = 20
+    nat = 3
+    ntyp = 2
+    ecutwfc = 60
+    occupations = 'fixed'
+    nbnd = 30
+    input_dft = 'pbe'
+/
+
+&electrons
+    diagonalization = 'david'
+    diago_thr_init = 1e-6
+    mixing_mode = 'plain'
+    mixing_beta = 0.7
+    conv_thr =  1e-9
+    electron_maxstep = 200
+/
+
+ATOMIC_SPECIES
+Mo 95.9600   Mo.pbe-spn-kjpaw_psl.0.2.UPF
+S  32.0600   S.pbe-n-kjpaw_psl.0.1.UPF
+
+ATOMIC_POSITIONS (angstrom)
+Mo     0.000000000         0.000000000         3.020250797
+S      1.591346502         0.917342544         1.456984282
+S      1.591346502         0.917342544         4.583517312
+
+K_POINTS automatic
+15 15 1 0 0 0
+

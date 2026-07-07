@@ -1,0 +1,4 @@
+&BANDS
+ prefix = "d",
+ outdir = "./",
+/
