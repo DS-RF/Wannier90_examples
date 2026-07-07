@@ -1,6 +1,8 @@
 
 # Plot fat bands for Mo d orbitals
 
+To run this example, it is necessary to use pseudopotentials that contain the atomic wave functions required for orbital projections.
+
 Run QE calculations:
 
 > pw.x < scf.in  > scf.out
