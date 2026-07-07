@@ -14,14 +14,8 @@ set xtics ("{/Symbol G}"  0.00000,\
 set arrow from 0.5774, graph 0 to 0.5774, graph 1 nohead
 set arrow from 0.9107, graph 0 to 0.9107, graph 1 nohead
 
-#set label 'd@_{z}^{2}' at screen 0.98,0.07 right font 'Times-Roman, 22'
-#set label 'd_{{z}^{2}}' at screen 0.92,0.92 right font 'Times-Roman-Italic, 22'
-#set label 'd_{{xy}}' at screen 0.92,0.92 right font 'Times-Roman-Italic, 22'
-#set label 'd_{{x}^{2}-{y}^{2}}' at screen 0.92,0.92 right font 'Times-Roman-Italic, 22'
-#set label 'd_{{z}^{2}}+d_{{xy}}+d_{{x}^{2}-{y}^{2}}' at screen 0.92,0.92 right font 'Times-Roman-Italic, 22'
 set label 'd_{{xz}}+d_{{yz}}' at screen 0.92,0.65 right font 'Times-Roman-Italic, 22'
 
 plot 'fatbands.dat' using 1:2:(5*($4+$5)) with points pt 7 ps variable lc rgb "royalblue" notitle, \
      'fatbands.dat' using 1:2 with lines lw 2 notitle
-#     'fatbands.dat' using 1:2:(5*($3+$6+$7)) with points pt 7 ps variable lc rgb "brown" notitle
 
